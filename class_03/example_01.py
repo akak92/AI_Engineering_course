@@ -43,3 +43,18 @@ class DocumentProcessor:
             print(f"Chunk {i+1}: {token_count} tokens")
         return chunks
 
+# Ejemplo de uso
+if __name__ == "__main__":
+    sample_text = """
+    Este es un ejemplo de texto que podría provenir de un PDF. 
+    Contiene varias oraciones y párrafos. 
+    El objetivo es demostrar cómo se puede limpiar y fragmentar el texto en chunks manejables.
+    
+    Aquí hay otro párrafo con más contenido. 
+    A veces, los PDFs contienen caracteres extraños o saltos de línea innecesarios.
+    
+    ¡Esperamos que este ejemplo sea útil!
+    """
+    processor = DocumentProcessor()
+    chunks = processor.process_document(sample_text)
+    print(f"Total chunks generados: {len(chunks)}")

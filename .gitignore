@@ -157,6 +157,10 @@ ENV/
 env.bak/
 venv.bak/
 
+# ChromaDB persistence (generado por la ingesta, no se versiona)
+vectorstore/
+vector_db/
+
 # Spyder project settings
 .spyderproject
 .spyproject

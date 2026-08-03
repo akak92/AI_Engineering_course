@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué operador de LCEL se usa para encadenar declarativamente un prompt, un modelo y un parser?",
+    "documento_id_esperado": "01_langchain.md"
+  },
+  {
+    "pregunta": "¿Qué método permite forzar que la respuesta de un modelo cumpla un esquema Pydantic en vez de devolver texto libre?",
+    "documento_id_esperado": "01_langchain.md"
+  },
+  {
+    "pregunta": "¿Qué característica de LangGraph permite que un flujo de agente vuelva a un nodo ya visitado en vez de seguir un camino lineal?",
+    "documento_id_esperado": "02_langgraph.md"
+  },
+  {
+    "pregunta": "¿Qué plataforma se usa para ver la traza paso a paso de una cadena LLM y depurar por qué el modelo respondió algo?",
+    "documento_id_esperado": "03_langsmith.md"
+  },
+  {
+    "pregunta": "¿Cuál es el error más común al combinar un retriever con un LLM en un sistema RAG, relacionado con el modelo usado para buscar vs. indexar?",
+    "documento_id_esperado": "04_integracion_stack.md"
+  }
+]
